@@ -5,6 +5,9 @@
   <img src="docs/assets/brand/openquatt-logo-horizontal-light.svg" alt="OpenQuatt" width="420" />
 </picture>
 
+> [!NOTE]
+> **Dit is een community-fork voor de Waveshare ESP32-S3-Relay-1CH.** Upstream OpenQuatt ondersteunt Waveshare niet meer na v0.50.0. Deze fork volgt de upstream-releases en zet alleen de Waveshare-targets (`Single`/`Duo`, Wi-Fi) terug; de regeling zelf is gelijk aan upstream. Firmware staat bij de [releases van deze fork](https://github.com/ImpieYay/OpenQuatt-WaveShare/releases/latest). Gebruik voor de Q-edition de [officiële OpenQuatt-repository](https://github.com/OpenQuatt/OpenQuatt). Problemen die alleen op Waveshare optreden meld je hier, niet upstream.
+
 OpenQuatt is open-source ESPHome-firmware voor Quatt Hybrid `Single`- en `Duo`-installaties. Het project geeft je lokaal inzicht, lokale controle, een uitgebreide web-app en optionele Home Assistant-integratie bovenop de bestaande Quatt-hardware.
 
 > [!IMPORTANT]
