@@ -17,7 +17,7 @@ esphome:
 
 packages:
   openquatt_substitutions_common: !include ../../openquatt/oq_substitutions_common_package.yaml
-  openquatt_topology_single_substitutions: !include ../../openquatt/topology/single_package.yaml
+  openquatt_topology_single: !include ../../openquatt/topology/single.yaml
   openquatt_profile_waveshare: !include ../../openquatt/profiles/waveshare.yaml
   openquatt_base_common: !include ../../openquatt/base/common.yaml
   openquatt_connection_wifi: !include ../../openquatt/connection/wifi.yaml
